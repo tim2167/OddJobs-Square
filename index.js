@@ -123,7 +123,7 @@ function getOrderRequest(payAmount) {
           name: "Cookie 🍪",
           quantity: "1",
           base_price_money: {
-            amount: 200,
+            amount: parseInt(payAmount),
             currency: "USD"
           }
         }
